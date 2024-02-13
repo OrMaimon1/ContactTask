@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:background="@drawable/gradient_activity_drawable"
+    android:orientation="vertical"
+    tools:context=".Activities.SignUpActivity">
+
+    <ImageView
+        android:id="@+id/login_IV"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/sign_in" />
+
+    <EditText
+        android:id="@+id/signUp_userName_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:hint="@string/user_name"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/signUp_email_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:hint="@string/email"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/signUp_password_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:hint="@string/password"
+        android:inputType="textWebPassword"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/signUp_signUp_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/sign_up"
+        android:textAllCaps="false"
+        app:cornerRadius="5dp" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
